@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* impostazioni header */
+header {
+    text-align: center;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 30px;
+}
+header ul li:hover {
+    background-color: #B3E5FC;
+}
+
+/* impostazioni home */
+#home img {
+    width: 100%;
+}
+
+/* impostazioni notizie */
+#notizie {
+    font-size: 20px;
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* impostazioni contatti */
+#contatti {
+    font-size: 20px;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* impostazioni footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
