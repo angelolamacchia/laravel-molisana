@@ -40,6 +40,10 @@ header ul li:hover {
     background-color: #B3E5FC;
 }
 
+header ul .active {
+    background-color: #B3E5FC;
+}
+
 /* impostazioni home */
 #home img {
     width: 100%;
@@ -83,6 +87,13 @@ header ul li:hover {
 
 #prodotti .card img {
     width: 100%;
+}
+
+/* impostazioni dettagli */
+#dettagli {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 /* impostazioni notizie */
